@@ -538,7 +538,6 @@ class NWMergeNodes(Operator, NWBase):
     bl_description = "Merge selected nodes"
     bl_options = {'REGISTER', 'UNDO'}
 
-    # pointless comment to see how this works
     mode: EnumProperty(
         name="Mode",
         translation_context=i18n_contexts.id_nodetree,
